@@ -1,0 +1,225 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat Alternates", "sans-serif";
+}
+body {
+  background-color: #ffefdb;
+}
+
+/* Navigation */
+ul.main-nav {
+  /* border: 2px solid red; */
+  background-color: #f5f5dc;
+  padding: 5px 10px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+ul.main-nav li a {
+  color: black;
+  padding: 5px, 10px;
+  margin: 10px;
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul.main-nav li a:hover {
+  color: aqua;
+}
+
+/* HEADER */
+.main-header {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 50px;
+
+  background-image: url(./Bilder/aron-visuals-HciQohInvKU-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px 200px 170px;
+}
+
+.main-header p {
+  font-size: 30px;
+  margin: 20px 0px 0px 560px;
+}
+
+/* MamaLeben */
+
+.main-seite2 {
+  /* border: 2px solid red; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-seite2 h2 {
+  font-size: 30px;
+  margin: 20px 50px;
+}
+
+.MomeSite-Container {
+  /* border: 5px solid green; */
+  min-height: 80vh;
+}
+
+/* CARD1 */
+.card-sub {
+  /* border: 5px solid pink; */
+  height: 250px;
+}
+
+
+.card1-top {
+  background-image: url(./Bilder/mamaleben.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card1-botom {
+  /* border: 2px solid brown; */
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 300px 0px;
+}
+
+.card1-botom h2 {
+  /* border: 5px solid blueviolet; */
+  font-size: 40px;
+}
+
+.card1-botom p {
+  font-size: 20px;
+  padding: 30px;
+}
+
+/* CARD2 */
+.card-sub {
+  /* border: 5px solid pink; */
+  height: 250px;
+}
+
+.card2 {
+  /* border: 2px solid blue; */
+  height: 500px;
+  margin: 10px;
+}
+
+.card2-top {
+  background-image: url("./Bilder/diy.jpg");
+}
+
+.card2-botom {
+  /* border: 2px solid orange; */
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.card2-botom h3 {
+  /* border: 5px solid blueviolet; */
+  text-decoration: none;
+  color: black;
+}
+
+
+.card2-botom p {
+  font-size: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* CARD3 */
+.card-sub {
+  /* border: 5px solid pink; */
+  height: 250px;
+}
+
+.card3 {
+  /* border: 2px solid blue; */
+  height: 500px;
+  margin: 10px;
+}
+
+.card3-top {
+  background-image: url("./Bilder/bücher.jpg");
+}
+
+.card3-botom {
+  /* border: 2px solid orange; */
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.card3-botom h4 {
+  text-decoration: none;
+  color: black;
+}
+
+.card3-botom p {
+  font-size: 20px;
+  padding: 100px;
+}
+
+.flex-container-diy {
+  display: flex;
+  justify-content: space-around;
+  }
+
+/* CARD4 */
+.card-sub {
+  /* border: 5px solid pink; */
+  height: 250px;
+}
+
+.card4 {
+  /* border: 2px solid blue; */
+  min-height: 100px;
+  
+}
+
+.card4-top {
+  background-image: url("./Bilder/abme.jpg");
+}
+
+.card4-botom {
+  /* border: 2px solid orange; */
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.card4-botom a {
+  text-decoration: none;
+  color: black;
+}
+
+.card4-botom p {
+  font-size: 20px;
+  padding: 30px;
+}
